@@ -1,0 +1,282 @@
+/* -----------------ОБЩИЕ СТИЛИ-------------------- */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: center;
+}
+
+/* -----------------HEADER-------------------- */
+header {
+    background-color: #ffffff;
+}
+
+.nav {
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*position: fixed;*/
+}
+.nav_item {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    color: #000000;
+}
+.logo {
+    width: 130%;
+    height: 30%;
+    margin-right: 100px;
+}
+
+/* -----------------CONTENT-------------------- */
+
+/* *****PRODUCT***** */
+.welcome {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 54px 0 54px 0;
+}
+.block_name {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 54px;
+}
+.product_block {
+    display: flex;
+}
+
+.product_block a {
+    width: 50px;
+    height: 50px;
+}
+
+.wrapper {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product_card {
+    max-width: 377px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.product_img {
+    width: 377px;
+    border-radius: 30px;
+}
+.product_price {
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 17px;
+}
+.product_title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 7px;
+}
+.more_btn {
+    padding: 16px 112px 16px 110px;
+    background-color: ;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 30px;
+    margin-top: 17px;
+    color: #fff;
+}
+.product_text {
+    margin-right: 18px;
+}
+.edit_product {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+}
+.edit_product_btn {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+.remove_product_btn {
+    font-weight: 600;
+    font-size: 16px;
+    color: #1c3a13;
+}
+/* .all_products {
+    display: flex;
+    margin: 54px 0 54px 0;
+    justify-content: center;
+}
+.all_products_text {
+    font-weight: 600;
+    font-size: 24px;
+    margin-right: 13px;
+    color: #000000;
+} */
+
+/* *****ABOUT***** */
+.about-all {
+    margin-top: 10px;
+    color: white;
+    background-color: #738a6c;
+    padding: 24px 10px 24px 10px;
+}
+
+.block_name {
+    margin-bottom: 10px;
+}
+
+.block_name-pay {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.about_text {
+    font-size: 20px;
+    line-height: 200%;
+}
+
+/* *****ADVANTAGES***** */
+.advantages {
+    padding: 54px 0 54px 0;
+}
+.advantages_wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.advantages_text {
+    max-width: 188px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* *****REGISTRATION / AUTH***** */
+.block_name_reg {
+    font-weight: 600;
+    font-size: 36px;
+    margin: 50px 50px 50px 50px;
+}
+.form_label {
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.form_input {
+    border: 2px solid #000000;
+    border-radius: 45px;
+    width: 340px;
+    height: 50px;
+    padding: 0 15px 0 15px;
+    font-size: 20px;
+}
+form div:not(:first-child) {
+    margin-top: 33px;
+}
+
+.reg-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.reg-body {
+    margin: auto;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px 15px 100px 15px;
+    position: relative;
+}
+
+.reg-body input {
+    display: block;
+    margin: 30px 30px 30px 30px;
+    width: 280px;
+    height: 20px;
+    padding: 25px 20px;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #89909f;
+}
+
+.reg_btn {
+    background: #1c3a13;
+    border-radius: 100px;
+    padding: 20px 63px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.entry-if-yes-acc {
+    margin-left: 70px;
+}
+
+.auth_btn {
+    background: #1c3a13;
+    border-radius: 100px;
+    padding: 20px 88px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.reg-if-no-acc {
+    margin-left: 70px;
+}
+
+.entry-items-if-no-acc {
+    margin-top: 20px;
+}
+
+
+
+/* -----------------FOOTER-------------------- */
+footer {
+    background-color: #1c3a13;
+    padding: 54px 0 54px 0;
+    color: #fff;
+}
+.footer_item {
+    font-size: 30px;
+    margin-top: 18px;
+}
+#contacts {
+    margin-bottom: 54px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+
+
+
+
